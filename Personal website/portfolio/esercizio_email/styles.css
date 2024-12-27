@@ -1,0 +1,120 @@
+/*se avessi dall'inizio incluso tutto all'interno di un div container
+avrei potuto centrare le cose automaticamente, perché se uso il margin 
+all'interno dell'id container lui mi muove già tutto quello che c'è dentro*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IMMAGINE E SCRITTA GMAIL INIZIO*/
+#immaginegmail{
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+
+
+#formeimmagine{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.scrittagmail{
+   background-color: white;
+   display: inline-block;
+   margin-left: 358px;
+   border-radius: 10px;
+
+}
+/*IMMAGINE E SCRITTA GMAIL FINE*/
+
+
+
+#nuovemail{
+    background-color: white;
+    width: 35%;
+    border-radius: 10px;
+}
+
+#container1{
+    margin-left: 500px;
+    margin-top:50px;
+}
+
+hr{
+    width: 60%;
+    color: black;
+}
+
+#iltrenta{
+     color: red;
+     background-color:orange;
+     border-radius: 10px;
+     border: 2px solid red;
+}
+
+
+
+/*parte centrale del testo delle email*/
+
+#ciccio{
+   background-image:url("media/5448919.jpg");
+   background-size: cover;
+}
+
+.subject{
+     display: inline-block;
+     width: 200px;
+     color: black;
+}
+
+.subject1{
+    display: inline-block;
+    color: black;
+}
+
+
+#container{
+   margin-top: 50px;
+   margin-left: 500px;
+   
+   width: 600px;
+}
+
+.div1{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.div2{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+/*.star:after {
+    content: "\2650";                  
+  } */
+
+/*parte centrale del testo delle email*/
+
+
+
+/*parte finale del testo*/
+
+#scrittafinale{
+    color: white;
+    background-color: black;
+    width: 20%;
+    text-align: center;
+    margin-left:650px
+}

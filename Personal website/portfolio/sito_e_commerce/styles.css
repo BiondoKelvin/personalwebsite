@@ -1,0 +1,76 @@
+#sfondo{
+    background-color: gainsboro;
+}
+
+/*CONTENITORE DELLE FOTO*/
+.container{
+    width: 50%;
+    height: 48%;
+    margin-bottom: 15px;
+    margin-left: 25%;
+}
+/*CONTENITORE DELLE FOTO*/
+
+/*CARATTERISTICHE FOTO*/
+.contenitore-foto1{
+    height: 99.5%;
+    width: 32%;
+    background-image: url("media/pd1.jpg");
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+    
+}
+
+.contenitore-foto2{
+    height: 99.5%;
+    width: 32%;
+    display: inline-block;
+    background-image: url("media/pd2.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    background-position: center;
+}
+
+.contenitore-foto3{
+    height: 99.5%;
+    width: 32%;
+    background-image: url("media/pd3.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 6px;
+    background-position: center;
+}
+/*CARATTERISTICHE FOTO*/
+
+/*SCONTI*/
+.sconto30{
+    background-color: red;
+    color: black;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    left: 203px;
+    text-align: center;
+    border-radius: 3px;
+
+
+}
+
+.sconto5{
+    background-color: green;
+    color: black;
+    width:30px;
+    height:20px;
+    position: relative;
+    left: 212px;
+    text-align: center;
+    border-radius: 3px;
+}
+/*SCONTI*/
+
+.heart{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

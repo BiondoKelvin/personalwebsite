@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .input-one{
+            display: block;
+            margin-bottom: 7px;
+            width: 300px;
+            height: 40px;
+            background-color: rgb(230, 222, 222);
+            border: none;
+            padding: 10px;
+            padding-left: 16px;
+            font-size: 13px;
+        }
+
+        .input-two{
+            display: block;
+            margin-bottom: 20px;
+            width: 300px;
+            height: 40px;
+            background-color: rgb(230, 222, 222);
+            border: none;
+            padding: 10px;
+            padding-left: 16px;
+            font-size: 13px;
+        }
+
+        .input-one:focus,
+        .input-two:focus{
+            outline: none;
+        }
+
+
+        .button-one{
+            color: white;
+            background-color: black;
+            border: solid;
+            width: 120px;
+            height: 40px;
+        }
+
+        .button-one:hover,
+        .button-two:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .button-one:active,
+        .button-two:active{
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .button-two{
+           color: black;
+           width: 160px;
+           height: 40px;
+           border: none;
+           margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="title">Request a ride now</p>
+    <input class="input-one" type="text" placeholder="Enter pickup location">
+    <input class="input-two" type="text" placeholder="Enter destination">
+    <button class="button-one">Request now</button>
+    <button class="button-two">Schedule for later</button>
+</body>
+</html>

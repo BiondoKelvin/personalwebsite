@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.berlin{
+    background-image: url("media/berlin.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.miami{
+    background-image: url("media/miami.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.naples{
+    background-image: url("media/napoli.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+.layover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.text{
+font-size: 50px;
+font-weight: 100;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: black;
+font-family: 'PT Serif', serif;
+}
